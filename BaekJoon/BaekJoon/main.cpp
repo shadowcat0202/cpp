@@ -46,6 +46,7 @@ void boj() {
 //단위 테스트용 함수
 void test() {
 	std::cout << "test()\n";
+	std::cout << "나는 마스터\n";
 }
 int main(int argc, const char* argv[]) {
 	boj();
