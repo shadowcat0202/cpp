@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Dynamic Programming">
+      <UniqueIdentifier>{248f163a-14a1-4ad9-949c-a7e761a25d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph theory">
+      <UniqueIdentifier>{e75114a0-75f4-4bf4-8bfc-9d828fa3e032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\data structure">
+      <UniqueIdentifier>{c245ae38-d1ea-4de5-9372-b3ac71594c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\brute force">
+      <UniqueIdentifier>{0af1f6ab-4f21-4dfc-969c-e545aeefc121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mathematical_interpretation">
+      <UniqueIdentifier>{558facdc-1df2-4d2b-9311-8ea67b57947b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Avatar">
+      <UniqueIdentifier>{ba57e21a-b55b-4899-81d7-611e17116bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\non_classification">
+      <UniqueIdentifier>{404460a4-4b26-42a2-9dce-e61a75b50983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sort">
+      <UniqueIdentifier>{790d2661-95a5-4a17-bced-933f88dee7ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph_theory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_test.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_string_algorithm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="data_structure.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic_Programming.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="brute_force.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematical_interpretation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="avatar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="non_classification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="myDisplay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="my_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1003.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11057.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2839.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1463.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11726.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1149.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q14852.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2579.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11053.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1912.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2156.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10844.cpp">
+      <Filter>소스 파일\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11725.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2644.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2178.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1753.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1197.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1012.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3190.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13460.cpp">
+      <Filter>소스 파일\Graph theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12100.cpp">
+      <Filter>소스 파일\brute force</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13458.cpp">
+      <Filter>소스 파일\mathematical_interpretation</Filter>
+    </ClCompile>
+    <ClCompile Include="Q14499.cpp">
+      <Filter>소스 파일\mathematical_interpretation</Filter>
+    </ClCompile>
+    <ClCompile Include="Q14500.cpp">
+      <Filter>소스 파일\brute force</Filter>
+    </ClCompile>
+    <ClCompile Include="Q14890.cpp">
+      <Filter>소스 파일\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15685.cpp">
+      <Filter>소스 파일\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1966.cpp">
+      <Filter>소스 파일\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2108.cpp">
+      <Filter>소스 파일\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1059.cpp">
+      <Filter>소스 파일\brute force</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1026.cpp">
+      <Filter>소스 파일\non_classification</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1205.cpp">
+      <Filter>소스 파일\non_classification</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1049.cpp">
+      <Filter>소스 파일\non_classification</Filter>
+    </ClCompile>
+    <ClCompile Include="non_classification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10157.cpp">
+      <Filter>소스 파일\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1183.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1158.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1043.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1168.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="data_structure.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1351.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1572.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1717.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1395.cpp">
+      <Filter>소스 파일\data structure</Filter>
+    </ClCompile>
+    <ClCompile Include="myDisplay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
