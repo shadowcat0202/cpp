@@ -47,7 +47,10 @@ void boj() {
 void test() {
 	std::cout << "test()\n";
 	std::cout << "수정된 부분\n";
+<<<<<<< HEAD
 	std::cout << "나는 마스터\n";
+=======
+>>>>>>> bf4b5c1624e7e231dc7531148ac5a32b0c5ffa8c
 }
 int main(int argc, const char* argv[]) {
 	boj();
