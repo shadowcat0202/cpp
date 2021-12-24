@@ -186,6 +186,7 @@
     <ClCompile Include="Q1463.cpp" />
     <ClCompile Include="Q14852.cpp" />
     <ClCompile Include="Q14890.cpp" />
+    <ClCompile Include="Q1517.cpp" />
     <ClCompile Include="Q15685.cpp" />
     <ClCompile Include="Q1572.cpp" />
     <ClCompile Include="Q1717.cpp" />

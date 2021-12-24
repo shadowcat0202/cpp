@@ -16,3 +16,12 @@ public:
 	void run();
 	//3 -5 4
 };
+
+class Q1517{
+	//Diamond 5
+	//버블소트
+	//https://www.acmicpc.net/problem/1517
+
+public:
+	void run();
+};
