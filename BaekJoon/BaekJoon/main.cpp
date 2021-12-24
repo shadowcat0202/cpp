@@ -6,8 +6,8 @@
 //#include "Graph_theory.h"	//그래프 이론
 //#include "Dynamic_Programming.h"	//동적 프로그래밍
 //#include "non_classification.h"	//미분류 문제
-//#include "sort.h"	//정렬?
-#include "data_structure.h"	//자료구조
+#include "sort.h"	//정렬?
+//#include "data_structure.h"	//자료구조
 //#include "my_test.h"
 
 bool exists(const char* fileName) {
@@ -24,7 +24,7 @@ void boj() {
 	std::ios_base::sync_with_stdio(0);
 	std::cin.tie(0);
 
-	Q1395 problem;
+	Q1517 problem;
 
 	if (exists("input.txt")) {
 		freopen("input.txt", "r", stdin);
@@ -47,10 +47,7 @@ void boj() {
 void test() {
 	std::cout << "test()\n";
 	std::cout << "수정된 부분\n";
-<<<<<<< HEAD
 	std::cout << "나는 마스터\n";
-=======
->>>>>>> bf4b5c1624e7e231dc7531148ac5a32b0c5ffa8c
 }
 int main(int argc, const char* argv[]) {
 	boj();
