@@ -1,2 +1,18 @@
-﻿  Q1517.cpp
+﻿  Q1725.cpp
+D:\mystudy\C++\BaekJoon\BaekJoon\Q1725.cpp(5,37): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+D:\mystudy\C++\BaekJoon\BaekJoon\Q1725.cpp(10,19): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+D:\mystudy\C++\BaekJoon\BaekJoon\Q1725.cpp(15,35): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\mystudy\C++\BaekJoon\BaekJoon\Q1725.cpp(16,45): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
   BaekJoon.vcxproj -> D:\mystudy\C++\BaekJoon\Debug\BaekJoon.exe

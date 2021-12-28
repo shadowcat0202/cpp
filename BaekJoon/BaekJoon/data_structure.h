@@ -3,6 +3,7 @@
 #include <queue>
 #include <vector>
 #include <map>
+#include <stack>
 class Q3190{
 	//https://www.acmicpc.net/problem/3190
 
@@ -25,7 +26,6 @@ public:
 	void del();
 };
 
-
 //해결(시간을 줄일수 있는 방법이 있을까?)
 class Q1158 {	
 	//Silver 5
@@ -41,7 +41,7 @@ public:
 	void run();
 };
 
-//해결(시방 개 에바네)
+//해결
 class Q1168{
 	//Silver 3
 	//요세푸스 문제 2(세그먼트 트리?)
@@ -140,6 +140,26 @@ private:
 	void updateRange(int left, int right, int range_left, int range_right, int node);
 	int sumOnSwitch(int left, int right, int range_left, int range_right, int node);
 	void show_tree();
+public:
+	void run();
+};
+
+class Q1725 {
+	//Diamond 5
+	//세그먼트트리, 분할정복, 스택
+	//https://www.acmicpc.net/problem/1725	(스택)
+	//https://www.acmicpc.net/problem/6549	(세그먼트트리 + 분할정복)
+	const long long INF = 2000000000;
+	int N;
+	long long ans = 0;
+	std::vector<long long> h, seg;
+	std::stack<int> s;
+private:
+	int init(int node, int start, int end);
+	int query(int node, int start, int end, int l, int r);
+	void segment_solve(int left, int right);
+	void use_segmentTree();
+	void use_stack();
 public:
 	void run();
 };
