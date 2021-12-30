@@ -24,7 +24,7 @@ void boj() {
 	std::ios_base::sync_with_stdio(0);
 	std::cin.tie(0);
 
-	Q1725 problem;
+	Q1781 problem;
 
 	if (exists("input.txt")) {
 		freopen("input.txt", "r", stdin);

@@ -4,6 +4,7 @@
 #include <vector>
 #include <map>
 #include <stack>
+#include <algorithm>
 class Q3190{
 	//https://www.acmicpc.net/problem/3190
 
@@ -144,6 +145,7 @@ public:
 	void run();
 };
 
+//해결
 class Q1725 {
 	//Diamond 5
 	//세그먼트트리, 분할정복, 스택
@@ -162,4 +164,29 @@ private:
 	void use_stack();
 public:
 	void run();
+};
+
+//해결(우선순위 관련 문제는 그냥 priority_queue로 먼저 사용해보자
+class Q1781 {
+	//Gold 2
+	//https://www.acmicpc.net/problem/1781
+	
+	//처음 생각했던거
+	/*
+	struct data {
+		int dead_line;
+		int cup;
+	};
+	*/
+	
+	int N;
+	std::vector<std::pair<int,int>> v;
+	std::priority_queue<int> pq;
+
+
+private:
+	
+public:
+	void run();
+
 };
